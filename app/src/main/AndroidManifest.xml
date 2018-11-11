@@ -16,10 +16,8 @@
         <activity android:name=".IntentOnePageToAnother" />
         <activity android:name=".IntentNewPage" />
         <activity android:name=".ImageViewTest" />
-        <activity android:name=".ActivityLifeCycle"></activity>
-        <activity android:name=".OptionMenuIntegrate">
-
-        </activity>
+        <activity android:name=".ActivityLifeCycle" />
+        <activity android:name=".OptionMenuIntegrate" />
         <activity android:name=".BackPress">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AlertDialogTest" />
+        <activity android:name=".TimePickerTest"></activity>
     </application>
 
 </manifest>
