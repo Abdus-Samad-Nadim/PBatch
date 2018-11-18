@@ -18,15 +18,16 @@
         <activity android:name=".ImageViewTest" />
         <activity android:name=".ActivityLifeCycle" />
         <activity android:name=".OptionMenuIntegrate" />
-        <activity android:name=".BackPress">
+        <activity android:name=".BackPress"></activity>
+        <activity android:name=".AlertDialogTest" />
+        <activity android:name=".TimePickerTest" />
+        <activity android:name=".ListViewTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AlertDialogTest" />
-        <activity android:name=".TimePickerTest"></activity>
     </application>
 
 </manifest>
