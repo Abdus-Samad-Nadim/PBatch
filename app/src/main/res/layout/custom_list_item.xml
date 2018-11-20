@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Hello"
+        android:gravity="center"
+        android:id="@+id/people"
+        android:textSize="30dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="182dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Hi"
+        android:textSize="30dp"
+        android:textColor="#000"/>
+
+</RelativeLayout>

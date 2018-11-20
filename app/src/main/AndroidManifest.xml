@@ -18,10 +18,13 @@
         <activity android:name=".ImageViewTest" />
         <activity android:name=".ActivityLifeCycle" />
         <activity android:name=".OptionMenuIntegrate" />
-        <activity android:name=".BackPress"></activity>
+        <activity android:name=".BackPress" />
         <activity android:name=".AlertDialogTest" />
         <activity android:name=".TimePickerTest" />
         <activity android:name=".ListViewTest">
+
+        </activity>
+        <activity android:name=".CustomListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
