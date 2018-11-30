@@ -11,7 +11,8 @@ import android.widget.TextView;
 public class AnimationTest extends AppCompatActivity implements View.OnClickListener{
     private Button bZoomIn, bZoomOut, bBlink, bFadeIn, bFadeOut, bCrossfade;
 
-    private Animation aZoomIn, aZoomOut, aBlink, aFadeIn, aFadeOut, aCrossfadeIn, aCrossfadeOut;
+    private Animation aZoomIn, aZoomOut, aBlink, aFadeIn, aFadeOut, aCrossfadeIn, aCrossfadeOut
+            ,aBouncing, aMove, aRotation, aSlideDown, aSlideUp;
 
     private TextView textView;
     @Override
@@ -34,16 +35,38 @@ public class AnimationTest extends AppCompatActivity implements View.OnClickList
         bBlink.setOnClickListener(this);
         bFadeIn.setOnClickListener(this);
         bFadeOut.setOnClickListener(this);
-        bCrossfade.setOnClickListener(this);
+        //bCrossfade.setOnClickListener(this);
 
         aZoomIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.zoom_in);
         aZoomOut = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.zoom_out);
         aBlink = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
         aFadeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
         aFadeOut = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_out);
-        aCrossfadeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
-        aCrossfadeOut = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_out);
+//        aCrossfadeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
+//        aBouncing = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.bouncing);
+//        aSlideUp = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_up);
+//        aSlideDown = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_down);
+//        aMove = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.move);
+//        aRotation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotation);
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @Override
     public void onClick(View v) {
@@ -74,11 +97,11 @@ public class AnimationTest extends AppCompatActivity implements View.OnClickList
                 textView.startAnimation(aFadeOut);
                 break;
 
-            case R.id.cross_fade :
-                textView.setVisibility(View.VISIBLE);
-                textView.startAnimation(aCrossfadeIn);
-                textView.startAnimation(aCrossfadeOut);
-                break;
+//            case R.id.cross_fade :
+//                textView.setVisibility(View.VISIBLE);
+//                textView.startAnimation(aCrossfadeIn);
+//                textView.startAnimation(aCrossfadeOut);
+//                break;
         }
     }
 }

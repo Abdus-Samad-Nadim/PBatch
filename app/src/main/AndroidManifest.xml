@@ -22,11 +22,12 @@
         <activity android:name=".AlertDialogTest" />
         <activity android:name=".TimePickerTest" />
         <activity android:name=".ListViewTest" />
-        <activity android:name=".CustomListView">
-
-        </activity>
+        <activity android:name=".CustomListView"></activity>
         <activity android:name=".Expandable_ListView" />
         <activity android:name=".AnimationTest">
+
+        </activity>
+        <activity android:name=".NotificationTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

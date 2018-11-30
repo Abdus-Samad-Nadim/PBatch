@@ -31,7 +31,7 @@ public class CustomListView extends AppCompatActivity {
         countries.add("Bangladesh");
         countries.add("Pakistan");
         countries.add("India");
-        countries.add("Chaina");
+        countries.add("China");
         countries.add("Argentina");
         countries.add("Brazil");
 
